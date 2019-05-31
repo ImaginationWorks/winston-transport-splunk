@@ -1,10 +1,4 @@
 .idea
-.env
-**/.env*
-**/env
-/home/ubuntu/workspace/.env
-deploy.ssh
-**/deploy.ssh
 
 node_modules
 .DS_Store
@@ -16,4 +10,3 @@ build
 **.log
 **/**.log
 coverage
-.heartbeat
