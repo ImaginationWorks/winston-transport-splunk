@@ -5,7 +5,7 @@ A [Splunk][0] transport for [winston][1].
 ## Usage
 ``` js
     import winston from 'winston';
-    import { Splunk } from 'winston-splunk';
+    import { Splunk } from 'winston-transport-splunk';
     
     
     cconst createTransports = (options) => {
