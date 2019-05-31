@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ImaginationWorks/winston-splunk.git"
+    "url": "git+https://github.com/ImaginationWorks/winston-transport-splunk.git"
   },
   "author": "Sean Xiong <sean@imaginationworks.com.au>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ImaginationWorks/winston-splunk/issues"
+    "url": "https://github.com/ImaginationWorks/winston-transport-splunk/issues"
   },
-  "homepage": "https://github.com/ImaginationWorks/winston-splunk#readme",
+  "homepage": "https://github.com/ImaginationWorks/winston-transport-splunk#readme",
   "pre-commit": [
     "lint",
     "test"

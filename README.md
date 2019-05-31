@@ -1,4 +1,4 @@
-# winston-splunk
+# winston-transport-splunk
 
 A [Splunk][0] transport for [winston][1].
 
@@ -42,15 +42,14 @@ A [Splunk][0] transport for [winston][1].
     });
 ```
 
-The Splunk transport is based on [splunk-logging][2]
+The Splunk transport is based on [splunk-logging][2], and used [winston-loggly-bulk][3] as a reference.
 
 
 ## Installation
 
-### Installing winston-splunk
+### Installing winston-transport-splunk
 
 ``` bash
-  $ npm install winston
   $ npm install winston-transport-splunk
 ```
 
@@ -72,3 +71,4 @@ The Splunk transport is based on [splunk-logging][2]
 [0]: http://splunk.com
 [1]: https://github.com/flatiron/winston
 [2]: https://www.npmjs.com/package/splunk-logging
+[2]: https://www.npmjs.com/package/winston-loggly-bulk
