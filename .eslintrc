@@ -1,0 +1,13 @@
+{
+    "extends": [
+      "airbnb"
+    ],
+    "rules": {
+      "comma-dangle": ["error", "never"],
+      "prefer-destructuring": 0,
+      "max-len": "warn",
+      "dot-notation": "warn",
+      "import/prefer-default-export": "warn"
+    },
+    "root": true
+  }

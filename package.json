@@ -1,0 +1,46 @@
+{
+  "name": "winston-splunk",
+  "version": "0.0.1",
+  "description": "winston transport for Splunk Event API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "./node_modules/eslint/bin/eslint.js ./src/lib",
+    "lint-fix": "./node_modules/eslint/bin/eslint.js ./src/lib --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImaginationWorks/winston-splunk"
+  },
+  "author": "Sean Xiong <sean@imaginationworks.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ImaginationWorks/winston-splunk/issues"
+  },
+  "homepage": "https://github.com/ImaginationWorks/winston-splunk#readme",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "dependencies": {
+    "esm": "^3.2.20",
+    "lodash": "^4.17.11",
+    "splunk-logging": "^0.10.1",
+    "util": "^0.12.0",
+    "winston": "^3.1.0",
+    "winston-transport": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "pre-commit": "^1.2.2"
+  },
+  "keywords": [
+    "winston",
+    "splunk"
+  ]
+}
