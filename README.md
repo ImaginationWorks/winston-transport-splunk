@@ -71,4 +71,4 @@ The Splunk transport is based on [splunk-logging][2], and used [winston-loggly-b
 [0]: http://splunk.com
 [1]: https://github.com/flatiron/winston
 [2]: https://www.npmjs.com/package/splunk-logging
-[2]: https://www.npmjs.com/package/winston-loggly-bulk
+[3]: https://www.npmjs.com/package/winston-loggly-bulk
