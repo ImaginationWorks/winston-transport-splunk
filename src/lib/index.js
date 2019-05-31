@@ -5,12 +5,11 @@
  * MIT LICENCE
  *
  */
-import _ from 'lodash';
-import os from 'os';
-import util from 'util';
-import Transport from 'winston-transport';
-import winston from 'winston';
-import { createLogger } from './splunk-logger';
+const _ = require('lodash');
+const util = require('util');
+const Transport = require('winston-transport');
+const winston = require('winston');
+const { createLogger } = require('./splunk-logger');
 
 
 const Splunk = function (options) {
@@ -49,9 +48,9 @@ Splunk.prototype.name = 'splunk';
 const formSystemMetadata = opts => ({
   time: new Date().getTime(),
   source: opts.source,
-  sourcetype: opts.sourcetype || 'api_json',
-  index: opts.index || '',
-  host: opts.host || os.hostname()
+  sourcetype: opts.sourcetype,
+  index: opts.index,
+  host: opts.host
 });
 
 //
@@ -93,4 +92,4 @@ Splunk.prototype.log = function (level, message, meta, callback) {
 };
 
 
-export { Splunk };
+module.exports = { Splunk };

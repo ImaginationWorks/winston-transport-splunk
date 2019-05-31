@@ -1,5 +1,5 @@
-import _ from 'lodash';
-import { Logger, utils } from 'splunk-logging';
+const _ = require('lodash');
+const { Logger, utils } = require('splunk-logging');
 
 
 /* eslint-disable */
@@ -32,4 +32,4 @@ const createLogger = (options) => {
 };
 
 
-export { createLogger };
+module.exports = { createLogger };
