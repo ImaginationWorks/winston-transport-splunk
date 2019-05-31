@@ -51,7 +51,7 @@ The Splunk transport is based on [splunk-logging][2]
 
 ``` bash
   $ npm install winston
-  $ npm install winston-splunk
+  $ npm install winston-transport-splunk
 ```
 
 ## Run Linting
