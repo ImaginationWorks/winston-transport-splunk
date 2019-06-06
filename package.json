@@ -1,6 +1,6 @@
 {
   "name": "winston-transport-splunk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "winston transport for Splunk Event API",
   "main": "src/lib/index.js",
   "scripts": {

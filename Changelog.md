@@ -2,7 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 
-#### [0.0.1] - 06-06-2019
+#### [0.0.7] - 06-06-2019
+- Fix the break change on export made in 0.0.6.
+
+#### [0.0.6] - 06-06-2019
 - Done winston 3.0 upgrade, see Upgrade docs: https://github.com/winstonjs/winston/blob/master/UPGRADE-3.0.md.
 - Changed README.
 
