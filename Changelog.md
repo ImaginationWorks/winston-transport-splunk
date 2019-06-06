@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 
 
+#### [0.0.1] - 06-06-2019
+- Done winston 3.0 upgrade, see Upgrade docs: https://github.com/winstonjs/winston/blob/master/UPGRADE-3.0.md.
+- Changed README.
+
+#### [0.0.5] - 31-05-2019
+- Update README and gitignore.
+
 #### [0.0.4] - 31-05-2019
 - Rename repo.
 

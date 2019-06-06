@@ -1,6 +1,6 @@
 {
   "name": "winston-transport-splunk",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "winston transport for Splunk Event API",
   "main": "src/lib/index.js",
   "scripts": {
@@ -25,7 +25,6 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "splunk-logging": "^0.10.1",
-    "util": "^0.12.0",
     "winston": "^3.1.0",
     "winston-transport": "^4.3.0"
   },
@@ -40,6 +39,7 @@
   },
   "keywords": [
     "winston",
-    "splunk"
+    "splunk",
+    "logging"
   ]
 }

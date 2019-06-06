@@ -42,15 +42,28 @@ A [Splunk][0] transport for [winston][1].
     });
 ```
 
-The Splunk transport is based on [splunk-logging][2], and used [winston-loggly-bulk][3] as a reference.
+The Splunk transport is based on [splunk-logging][2], and used [winston-elasticsearch][3] as a reference.
 
+### configuration options
+
+- *source*: The value used for the "source" metadata passed to Splunk.
+- *sourcetype*: The value used for the "sourcetype" metadata passed to Splunk.
+- *batchInterval*: The number of milliseconds to wait before flushing logs.
+- *maxBatchCount*: The number of logs to batch before flushing.
+- *maxBatchSize*: The size of the batch, in bytes, to accumulate before flushing.
+- *maxRetries*: The number of times the transport should retry sending failed batches.
+- *url*: The url used to connect to the Splunk. *This is required*
+- *index*: The Splunk index to log to.
+- *token*: The token used for connecting to the Splunk. *This is required*
+
+This module uses splunk-logging to send events to Splunk, more details of configuration options can be found at [splunk-logging][2]. 
 
 ## Installation
 
 ### Installing winston-transport-splunk
 
 ``` bash
-  $ npm install winston-transport-splunk
+  $ npm install --save winston-transport-splunk
 ```
 
 ## Run Linting
@@ -59,16 +72,18 @@ The Splunk transport is based on [splunk-logging][2], and used [winston-loggly-b
   npm run lint
 ```
 
-## Run Tests
+## Run Tests 
+
+Tests will be added soon. 
 
 ```
   npm run test
 ```
 
-#### Author: [Sean Xiong](http://blog.htxiong.com)
+#### Author: [Sean Xiong](http://htxiong.com) @ Imaginationworks
 #### License: MIT
 
 [0]: http://splunk.com
 [1]: https://github.com/flatiron/winston
 [2]: https://www.npmjs.com/package/splunk-logging
-[3]: https://www.npmjs.com/package/winston-loggly-bulk
+[3]: https://github.com/vanthome/winston-elasticsearch
